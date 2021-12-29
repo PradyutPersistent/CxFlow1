@@ -1,0 +1,152 @@
+
+  Report --XML file
+  out of memory- 
+  getReportContent()
+  fires RestAPI  response XML
+  optimise the code
+  trim()-
+  functional testing is required-
+  build sdk-->build cxflow.
+  commmand line run with sast scan-
+  after scan perform --Sast scan
+  report generated
+   
+  char array
+
+  log.info(---) add in sdk in CxService.java    
+
+
+
+3.Run CxFlow for SAST scan using CLI as well as Github Webhook to see that it is working end to end
+
+1.Download or create a sample  spring-boot web project that is gradle based and that use spring-boot 2.6.1. 
+Build the sample code and see that it is functioning. 
+2.Scan this project using CxFlow SCA command line scan 
+3.This task is very straightforward and simple.  You not developing anything here, just download any sample code and getting it scanned using cxflow.  
+Please try to complete this tomorrow. Share the SCA result link with me.
+
+
+
+
+ java -jar cx-flow-1.6.26.jar --spring.config.location="C:\Users\pradyutn\OneDrive - Checkmarx\Desktop\CxFlow\CxFlow\src\main\resources\application.yml" --web
+
+ java -jar cx-flow-1.6.26.jar --spring.config.location="C:\Checkmarx\Build\application.yml" --scan --f="D:\Persistent\Checkmarx\git\CxFlowGitHub" --cx-team="CxServer\SP\Company" --cx-project="CxFlowGitHub" --app="CxFlowGitHub"
+    
+
+
+
+ java -jar cx-flow-1.6.29.jar --spring.config.location="C:\Users\pradyutn\OneDrive - Checkmarx\Desktop\CxFlow\CxFlow\src\main\resources\application.yml" --scan --f="C:\Users\pradyutn\eclipse-workspace\HelloWorld1" --cx-team="CxServer/PradyutS" --cx-project="HelloWorld1"  --app="HelloWorld1" --branch=master
+
+
+
+   --f="D:\Persistent\Checkmarx\git\CxFlowGitHub" 
+
+
+
+   http://sast-pi-1615.rnd.local/cxwebclient/Login.aspx
+
+
+
+  org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.32.9.167/cxrestapi/auth/identity/connect/token": Connect to 10.32.9.167:80 [/10.32.9.167] failed: Connection timed out: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.32.9.167:80 [/10.32.9.167] failed: Connection timed out: connect
+
+
+   http://sast-pi-1615.rnd.local/cxwebclient
+
+
+    http://sast-pi-1615.rnd.local/cxwebclient/ProjectState.aspx
+
+
+    https://github.com/checkmarx-ltd/cx-flow.git
+
+   AbstractVulnerabilityScanner---line no-66--break point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ [14:55] Dhaval Patel
+checkmarx:
+version: 9.4
+username: admin@cx
+password: Cx123456!
+client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
+base-url: http://10.32.9.167
+team: /CxServer
+url: ${checkmarx.base-url}/cxrestapi
+#scan-preset: Checkmarx Default
+#incremental: true
+#WSDL Config
+portal-url: ${checkmarx.base-url}/cxwebinterface/Portal/CxWebService.asmx
+sdk-url: ${checkmarx.base-url}/cxwebinterface/SDK/CxSDKWebService.asmx
+portal-wsdl: ${checkmarx.base-url}/Portal/CxWebService.asmx?wsdl
+sdk-wsdl: ${checkmarx.base-url}/SDK/CxSDKWebService.asmx?wsdl
+
+[14:55] Dhaval Patel
+then 
+
+
+
+
+  
